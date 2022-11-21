@@ -1,11 +1,11 @@
 name: Frigate (Full Access) Beta (0.11.1)
-version: 0.11.1
+version: rpi-hwaccel
 panel_icon: "mdi:cctv"
 panel_title: Frigate
 slug: frigate-fa-beta
 description: NVR with realtime local object detection for IP cameras
 url: "https://github.com/blakeblackshear/frigate"
-image: "crzynik/frigate:rpi-hwaccel"
+image: crzynik/frigate:rpi-hwaccel
 startup: application
 boot: auto
 webui: "http://[HOST]:[PORT:5000]/"
